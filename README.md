@@ -2,7 +2,7 @@
 
 Receive notifications on OBS when a tip in AR (arweave) hits your wallet in the livestream on Odysee.
 
-![Odysee tip](https://hackmd.io/_uploads/HkU-pT8Sxl.png)
+![Odysee tip Widget](https://thumbs.odycdn.com/8f71bc0012a11aecc9691710eaf5e5f5.webp)
 
 ## AR Tip Notification Widget for OBS
 
