@@ -67,7 +67,7 @@ notification.innerHTML = `
             <img src="https://odysee.com/public/favicon_128.png" alt="💰" style="width: 24px; height: 24px;" onerror="this.style.display='none'; this.parentNode.innerHTML='💰'">
         </div>
         <div class="notification-text">
-            <div class="notification-title">🎉 New Tip Received!</div>
+            <div class="notification-title">🎉 New Tip Received. Woohoo!</div>
             
             <div class="amount-container">
                 <div class="ar-amount">${data.amount} AR</div>
