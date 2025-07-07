@@ -49,17 +49,13 @@ The widget's styles and messages are fully customizable from the project files. 
 ## For the terminal on Windows:
 
 ```
-url.exe -X POST http://localhost:3000/notify `
->> -H "Content-Type: application/json" `
->> -d '{"from":"XXX","amount":"0.40","txId":"XXX"}'
+curl.exe -X POST http://localhost:3000/notify ` -H "Content-Type: application/json" ` -d '{"from":"XXX","amount":"0.40","txId":"XXX"}'
 ```
 
 ## For the terminal on Linux:
 
 ```
-curl -X POST http://localhost:3000/notify \
-  -H "Content-Type: application/json" \
-  -d '{"from":"XXX","amount":"0.40","txId":"XXX"}'
+curl -X POST http://localhost:3000/notify \ -H "Content-Type: application/json" \ -d '{"from":"XXX","amount":"0.40","txId":"XXX"}'
 ```
 
 The widget receives notifications the moment the transaction enters the block for confirmation, so it may take a few minutes to display depending on the congestion of the blockweave.
